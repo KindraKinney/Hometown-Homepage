@@ -1,0 +1,18 @@
+body { 
+    margin: 0; 
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    background-image: url("images/stephen-ellis-knoxville-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.activities {
+    display: flex;
+}
