@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.hero {
+#hero {
     display: flex;
     background-image: url("images/stephen-ellis-knoxville-unsplash.jpg");
     background-size: cover;
@@ -16,16 +16,40 @@ body {
 
 .activities {
     display: flex;
+    
 }
+
+
+
+.activities-box {
+    width: 800px;
+    display: flex;
+    margin: auto;
+   
+
+}
+
+
 
 #activities-img  {
     border-radius: 50%;
     height: 150px;
     width: 150px;
 }
-
-.activities-cont {
+.guide-img { 
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+}
+.guide-card { 
+    width: 500px;
+    margin: 0 auto;
+    background-color: aqua;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    text-align: center;
+    
+}
+#guide-quote { 
+    padding-right: 20px;
 }
