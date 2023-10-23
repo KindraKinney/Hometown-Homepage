@@ -1,6 +1,7 @@
 body { 
     margin: 0; 
-    text-align: center;
+    
+    
 }
 
 #hero {
@@ -13,28 +14,35 @@ body {
     color: white;
 }
 
-
 .activities {
-    display: flex;
-    
+    padding-bottom: 20px;
 }
 
-
-
-.activities-box {
-    width: 800px;
-    display: flex;
-    margin: auto;
-   
+#activities-heading {
+    text-align: center;
 
 }
 
+#activities-box {
+   display: flex;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 
 
 #activities-img  {
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    text-align: center;
+    
+}
+
+.activity { 
+    width: 250px;
 }
 .guide-img { 
     width: 150px;
