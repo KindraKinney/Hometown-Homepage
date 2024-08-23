@@ -22,7 +22,7 @@ body {
 
 .activities {
     padding-bottom: 20px;
-    background-color: beige;
+    background-color: #eae2b7;
     background-size: cover;
     overflow: auto;
     
@@ -61,42 +61,40 @@ body {
 }
 .guide-img { 
     width: 150px;
-    height: 200px;
-    padding: 20px;
+    
 }
 
 
-.guide-card { 
-    max-width: 400px;
-    max-height: 300px;
+.guide-card {
+    width: 400px;
     margin: 30px auto 30px auto;
-    background-color: violet;
-    padding: 15px 15px;
-    border-radius: 10px;
-
-}
-
-.guide-content { 
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #fcbf49;
+    border-radius: 5px;
+    border-bottom: 6px solid #f77f00;
 }
+
+
 #guide-quote { 
-    padding-right: 20px;
+    font-style: italic;
 }
 
 .hero-title { 
-    background-color: #f7b301;
+    background-color: #fcbf49;
     font-family: "Great Vibes", cursive; 
     font-weight: 400;
     font-size: 65px;
     padding: 10px 10px 0 10px;
     border-radius: 5px;
+    margin: 0;
 
 }
 
 .hero-subtitle { 
-    background-color: #eb773e;
+    background-color: #f77f00;
     border-radius: 5px;
     padding: 5px;
 
